@@ -1,0 +1,14 @@
+﻿no.,Item,Price,Description
+1,Microcontroller,$38.47 ,Arduino Nano 33 BLE Sense Rev2
+2,PAR Meter,$15.95 ,Adafruit AS7341 10-Channel Sensor
+3,Soil Sensor,$6.50 ,SparkFun Soil Moisture Sensor
+4,Water Pump,$2.95 ,Adafruit 4547 Submersible DC Water Pump
+5,Tubing,$1.50 ,Adafruit 4545 Rubber Tubing
+6,Servo,$5.65 ,Parallax 3V Micro Servo
+7,Heating Pad,$4.50 ,SparkFun 5X10cm Heating Pad
+8,Battery,$6.27 ,Adafruit 1565 5V Battery [obtained from Arrow]
+9,USB Adapter,$1.95 ,USB Type A Breakout Cable To Female Jumper
+10,Flash Memory,$0.52 ,Winbond 15Mbit SPI Flash [W25Q16JVSSIQ]
+11,Water Reservoir,$0.00 ,Upcycled Milk Jug
+12,Shade Pannel,$0.00 ,Upcycled Milk Jug
+Total,,$84.26 ,

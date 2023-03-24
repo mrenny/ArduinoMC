@@ -1,0 +1,14 @@
+title: The Plant Sitter
+description: A project in fulfillment of the Arduino Microcredential at CU Boulder Spring 2023
+theme: just-the-docs
+color_scheme: foo
+
+url: mrenny.github.io
+
+use_math: true #allows LaTex Math equation Support
+
+aux_links:
+  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+
+kramdown:
+  footnote_nr       : 1
