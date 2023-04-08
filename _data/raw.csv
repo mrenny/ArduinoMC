@@ -4,11 +4,19 @@
 3,Soil Sensor,$6.50 ,SparkFun Soil Moisture Sensor
 4,Water Pump,$2.95 ,Adafruit 4547 Submersible DC Water Pump
 5,Tubing,$1.50 ,Adafruit 4545 Rubber Tubing
-6,Servo,$5.65 ,Parallax 3V Micro Servo
-7,Heating Pad,$4.50 ,SparkFun 5X10cm Heating Pad
-8,Battery,$6.27 ,Adafruit 1565 5V Battery [obtained from Arrow]
-9,USB Adapter,$1.95 ,USB Type A Breakout Cable To Female Jumper
-10,Flash Memory,$0.52 ,Winbond 15Mbit SPI Flash [W25Q16JVSSIQ]
-11,Water Reservoir,$0.00 ,Upcycled Milk Jug
-12,Shade Pannel,$0.00 ,Upcycled Milk Jug
-Total,,$84.26 ,
+6,Water Sensor,$0.80 ,Water Reservoir Sensor
+7,Motor,$2.10 ,Sparkfun DC Motor
+8,Heating Pad,$4.50 ,SparkFun 5X10cm Heating Pad
+9,Water Reservoir,$0.00 ,Upcycled Milk Jug
+10,Shade Pannel,$0.00 ,Upcycled Milk Jug
+11,Light Diffuser,$0.00 ,Upcycled Milk Jug
+12,SD Slot,$3.50 ,Adafruit Micro SD SPI
+13,Fan,$6.24 ,Adafruit 4468 Mini Fan
+14,Battery,$6.27 ,Adafruit 1565 5V Battery [obtained from Arrow]
+15,USB Adapter,$0.45 ,Male USB A Head
+16,Clock,$4.95 ,RTC Capabilities
+16,Heat Sink,$3.20 ,Aluminum Heat Sink
+17,Solder/Wires,negligible,
+18,Housing,negligible,
+19,Transistors,negligible,
+Total,,$97.38 ,
