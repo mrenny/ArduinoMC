@@ -53,21 +53,24 @@ void writeBLE(String message){//Definition for writing a message over BLE, descr
 }
 void setup() {//Allows for instrument callibrations if certain pins are shorted, decides if BLE sould be in TX or RX, and starts all peripherals including BLE
   //Set Pin Modes
-    pinMode(klock,INPUT);
     pinMode(R, OUTPUT);
     pinMode(G, OUTPUT);
     pinMode(B, OUTPUT);//Set RBG Pins
-    pinMode(moist,INPUT);
     pinMode(pumpPin, OUTPUT);
+    pinMode(heatPin,OUTPUT);
     pinMode(shade0, OUTPUT);
     pinMode(shade1, OUTPUT);
     pinMode(shade2, OUTPUT);
+    pinMode(moist,INPUT);
+    pinMode(reset,OUTPUT);
+    pinMode(klock,INPUT);
+    pinMode(calSoil,INPUT);
     digitalWrite(pumpPin,LOW);
     digitalWrite(shade0,LOW);
     digitalWrite(reset,HIGH);//Active High [not being reset]
   //Start and Set Clock time
     //If we're programming the board for the first time, its connected to Serial and will get the current date/time from the computer uploading the firmware
-    if (digitalRead(klock)){//This will be false later when the jumper wire is removed/cut before packaging the circuit into its housing
+    if (digitalRead(klock)){
       Serial.begin(115200);
       if (!rtc.begin()){
       Serial.println("Error connecting to the RTC. Makesure clock pin is shorted high");
